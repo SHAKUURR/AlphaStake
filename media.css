@@ -35,7 +35,7 @@
   }
 
   .find p {
-    font-size: 5rem;
+    font-size: 4.5rem;
     width: 100%;
   }
 
@@ -49,26 +49,26 @@
   }
 
   .grow h2 {
-    font-size: 6rem;
+    font-size: 5.5rem;
   }
 
   .grow-parag {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .grow a {
     width: 43%;
   }
 
-  .footer ul li {
-    font-size: 3rem;
-  }
 }
 
 @media only screen and (max-width: 68.75em) {
   .hero {
     flex-direction: column;
-    margin-top: 5rem;
+  }
+
+  .bg {
+    display: none;
   }
 
   .hero-text {
@@ -86,6 +86,18 @@
     width: 120%;
   }
 
+  .lead-container {
+    margin-top: 8rem;
+  }
+
+  .ellipse {
+    display: none;
+  }
+
+  .join p {
+    width: 100%;
+  }
+
   .partner {
     flex-direction: column;
     align-items: center;
@@ -101,8 +113,8 @@
 }
 
 @media only screen and (max-width: 60.9375em) {
-  .lead-container {
-    margin-top: 20rem;
+  .footer-text {
+    width: 50%;
   }
 
   .hero-text p {
@@ -114,11 +126,11 @@
     width: 70%;
   }
 
-  .bg {
+  /* .bg {
     top: 10rem;
     right: -10rem;
     width: 130%;
-  }
+  } */
 
   .lead-container {
     flex-direction: column;
@@ -170,6 +182,8 @@
   .grow a {
     width: 50%;
   }
+
+
 }
 
 @media only screen and (max-width: 53.5625em) {
@@ -208,9 +222,6 @@
     font-size: 1.8rem;
   }
 
-  .footer ul li {
-    font-size: 2.5rem;
-  }
 }
 
 @media only screen and (max-width: 43.75em) {
@@ -251,75 +262,84 @@
   .lead-container {
     margin-top: 10rem;
   }
-}
 
-@media only screen and (max-width: 41.125em) {
-  html {
-    font-size: 50%;
+  .footer ul li {
+
+    font-size: 2rem;
   }
 
-  .lead-container {
-    margin-top: 30rem;
+  @media only screen and (max-width: 41.125em) {
+    html {
+      font-size: 50%;
+    }
+
+
+    .work-text h2 {
+      font-size: 4rem;
+    }
+
+    footer {
+      padding-bottom: 3rem;
+    }
+
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .footer ul:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    .footer ul li:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    .copy {
+      display: none;
+    }
+
+    .copy2 {
+      display: block;
+    }
   }
 
-  .work-text h2 {
-    font-size: 4rem;
+  @media only screen and (max-width: 32.875em) {
+    .hero-text h1 {
+      font-size: 4rem;
+    }
+
+    .hero-text p {
+      font-size: 1.8rem;
+    }
+
+    .grow a {
+      width: 70%;
+    }
+
+    footer {
+      padding-top: 3rem;
+    }
+
+    .nav-item {
+      font-size: 1.6rem;
+    }
+
+    .logo {
+      width: 12rem;
+    }
   }
 
-  footer {
-    padding-bottom: 3rem;
-  }
+  @media only screen and (max-width: 27.3125em) {
+    html {
+      font-size: 43%;
+    }
 
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .partner-box {
+      width: 85%;
+    }
 
-  .footer ul:not(:last-child) {
-    margin-bottom: 2rem;
+    .grow a {
+      width: 80%;
+    }
   }
-
-  .footer ul li:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-
-@media only screen and (max-width: 32.875em) {
-  .hero-text h1 {
-    font-size: 4rem;
-  }
-
-  .hero-text p {
-    font-size: 1.8rem;
-  }
-
-  .grow a {
-    width: 70%;
-  }
-
-  footer {
-    padding-top: 3rem;
-  }
-
-  .nav-item {
-    font-size: 1.6rem;
-  }
-
-  .logo {
-    width: 12rem;
-  }
-}
-
-@media only screen and (max-width: 27.3125em) {
-  html {
-    font-size: 43%;
-  }
-
-  .partner-box {
-    width: 85%;
-  }
-
-  .grow a {
-    width: 80%;
-  }
-}
