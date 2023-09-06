@@ -1,0 +1,325 @@
+@media only screen and (max-width: 79.75em) {
+
+  section,
+  footer {
+    padding: 0rem 5rem 10rem 5rem;
+  }
+
+  footer {
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+  }
+
+  .hero {
+    margin-top: 15rem;
+  }
+
+  .hero-text h1 {
+    font-size: 6rem;
+  }
+
+  .hero-text p {
+    font-size: 2.8rem;
+  }
+
+  .lead-container h2 {
+    font-size: 5rem;
+  }
+
+  .lead-box p {
+    font-size: 2rem;
+  }
+
+  .partner-text h2 {
+    font-size: 3.8rem;
+  }
+
+  .find p {
+    font-size: 5rem;
+    width: 100%;
+  }
+
+  .join p {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .work-text h2 {
+    font-size: 5rem;
+  }
+
+  .grow h2 {
+    font-size: 6rem;
+  }
+
+  .grow-parag {
+    font-size: 2rem;
+  }
+
+  .grow a {
+    width: 43%;
+  }
+
+  .footer ul li {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  .hero {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-img {
+    align-self: center;
+    width: 60%;
+  }
+
+  .bg {
+    top: 10rem;
+    width: 120%;
+  }
+
+  .partner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner-box {
+    width: 60%;
+  }
+
+  .partner-box:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 60.9375em) {
+  .lead-container {
+    margin-top: 20rem;
+  }
+
+  .hero-text p {
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .bg {
+    top: 10rem;
+    right: -10rem;
+    width: 130%;
+  }
+
+  .lead-container {
+    flex-direction: column;
+  }
+
+  .lead-container h2 {
+    padding-top: 5rem;
+    width: 100%;
+    padding-bottom: 6rem;
+  }
+
+  .lead-parag {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .find p {
+    font-size: 4rem;
+  }
+
+  .join {
+    margin-top: 0rem;
+  }
+
+  .join p {
+    font-size: 4rem;
+  }
+
+  .work {
+    flex-direction: column;
+  }
+
+  .work-text {
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  .work img {
+    width: 40%;
+    rotate: 90deg;
+    align-self: center;
+  }
+
+  .grow-parag {
+    margin-bottom: 5rem;
+  }
+
+  .grow a {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 53.5625em) {
+  #grow {
+    padding-bottom: 20rem;
+    padding-top: 4rem;
+  }
+
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+
+  .partner-box {
+    width: 80%;
+  }
+
+  .slider .slide {
+    /* height: 100px; */
+    width: 800px;
+  }
+
+  .slide h2 {
+    font-size: 8rem;
+  }
+
+  .find p {
+    font-size: 3rem;
+  }
+
+  .join p {
+    font-size: 3rem;
+  }
+
+
+  .grow a p {
+    font-size: 1.8rem;
+  }
+
+  .footer ul li {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
+
+  section,
+  footer {
+    padding: 0rem 3rem 10rem 3rem;
+  }
+
+  footer {
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+  }
+
+  nav {
+    padding: 3rem;
+  }
+
+  .bg {
+    top: 10rem;
+    right: -10rem;
+    width: 150%;
+  }
+
+  .slide h2 {
+    font-size: 6rem;
+  }
+
+  .slider .slide {
+    /* height: 100px; */
+    width: 1100px;
+  }
+
+  .lead-container h2 {
+    font-size: 4rem;
+  }
+
+  .lead-container {
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 41.125em) {
+  html {
+    font-size: 50%;
+  }
+
+  .lead-container {
+    margin-top: 30rem;
+  }
+
+  .work-text h2 {
+    font-size: 4rem;
+  }
+
+  footer {
+    padding-bottom: 3rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer ul:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .footer ul li:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 32.875em) {
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+
+  .hero-text p {
+    font-size: 1.8rem;
+  }
+
+  .grow a {
+    width: 70%;
+  }
+
+  footer {
+    padding-top: 3rem;
+  }
+
+  .nav-item {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 27.3125em) {
+  html {
+    font-size: 43%;
+  }
+
+  .partner-box {
+    width: 85%;
+  }
+
+  .grow a {
+    width: 80%;
+  }
+}
