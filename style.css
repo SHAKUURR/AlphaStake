@@ -328,7 +328,7 @@ nav {
 
 /* FIND SECTION */
 #find {
-  margin-top: 6rem
+  margin-top: 12rem
 }
 
 .find {
@@ -403,7 +403,7 @@ nav {
 }
 
 .work-text h2 {
-  font-size: 6.2rem;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -415,14 +415,15 @@ nav {
 }
 
 .work-text a {
-  display: inline-block;
-  color: #000;
-  background-color: #fff;
-  font-size: 2.4rem;
+  color: #202020;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding: 1rem 6rem;
+  background-color: #FFF;
+  display: inline-block;
+  text-align: center;
+  padding: 1.5rem 4em;
 }
 
 .work img {
@@ -431,11 +432,12 @@ nav {
 
 #grow {
   position: relative;
+  padding-bottom: 20rem;
 }
 
 .grow h2 {
   text-align: center;
-  font-size: 6rem;
+  font-size: 6.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -483,7 +485,7 @@ nav {
 
 .footer-stone {
   position: absolute;
-  bottom: 0rem;
+  top: 20rem;
   left: 0rem;
   width: 30rem;
 }
