@@ -67,9 +67,9 @@
     flex-direction: column;
   }
 
-  .bg {
+  /* .bg {
     display: none;
-  }
+  } */
 
   .hero-text {
     width: 100%;
@@ -79,11 +79,12 @@
   .hero-img {
     align-self: center;
     width: 60%;
+    margin-top: 7rem;
   }
 
   .bg {
-    top: 10rem;
-    width: 120%;
+    top: 30rem;
+    width: 100%;
   }
 
   .lead-container {
@@ -117,7 +118,9 @@
     width: 50%;
   }
 
-
+  #partner {
+    margin-top: 0rem;
+  }
 
   .hero-text p {
     margin-top: 2.5rem;
@@ -194,6 +197,9 @@
     width: 50%;
   }
 
+  .middle {
+    margin-left: 0rem;
+  }
 
 }
 
@@ -251,11 +257,12 @@
     padding: 3rem;
   }
 
+  /* 
   .bg {
     top: 10rem;
     right: -10rem;
     width: 150%;
-  }
+  } */
 
   .slide h2 {
     font-size: 6rem;
