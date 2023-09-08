@@ -381,4 +381,9 @@
   .grow a {
     width: 80%;
   }
+
+  .hero-img {
+    margin-top: 4rem;
+    width: 72%;
+  }
 }

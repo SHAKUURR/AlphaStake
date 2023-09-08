@@ -128,6 +128,7 @@ nav {
 
 .hero-img {
   width: 35%;
+  animation: rotate 5s linear infinite;
 }
 
 .bg {
@@ -550,4 +551,14 @@ nav {
 
 .copy2 {
   display: none;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
