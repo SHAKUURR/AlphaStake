@@ -84,6 +84,13 @@ nav {
   /* background: transparent; */
 }
 
+.nav-link:active {
+  background: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
 .nav-link:hover {
   background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
   background-clip: text;

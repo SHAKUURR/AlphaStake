@@ -299,19 +299,6 @@
     margin-top: -5rem;
   }
 
-  .nav-link:active,
-  .nav-link:focus {
-    color: #fff;
-    background-color: #fff;
-    transition: none;
-  }
-
-  .hero-text a:hover,
-  .hero-text a:active {
-    color: #000;
-    background-color: #fff;
-    transition: none;
-  }
 }
 
 @media only screen and (max-width: 41.125em) {
