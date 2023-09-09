@@ -84,11 +84,9 @@ nav {
   /* background: transparent; */
 }
 
-.nav-link:active {
-  background: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.nav-link:visited {
   color: #fff;
+  transition: none;
 }
 
 .nav-link:hover {
