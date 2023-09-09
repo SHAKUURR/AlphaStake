@@ -84,10 +84,7 @@ nav {
   /* background: transparent; */
 }
 
-.nav-link:visited {
-  color: #fff !important;
-  transition: none;
-}
+
 
 .nav-link:hover {
   background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
@@ -603,5 +600,12 @@ nav {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media(hover:none) {
+  .nav-link:hover {
+    color: #fff !important;
+    transition: none;
   }
 }

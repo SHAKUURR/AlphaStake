@@ -299,6 +299,14 @@
     margin-top: -5rem;
   }
 
+  .nav-link:visited {
+    color: #fff !important;
+    transition: none;
+  }
+
+  .nav-link:hover {
+    color: #fff !important;
+  }
 }
 
 @media only screen and (max-width: 41.125em) {
