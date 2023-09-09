@@ -85,7 +85,7 @@ nav {
 }
 
 .nav-link:visited {
-  color: #fff;
+  color: #fff !important;
   transition: none;
 }
 
