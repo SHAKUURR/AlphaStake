@@ -86,14 +86,6 @@ nav {
 
 
 
-.nav-link:hover {
-  background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  transition: color 5s ease, background 5s ease-in-out;
-}
 
 .nav-item:not(:last-child) {
   margin-right: 3rem;
@@ -603,8 +595,21 @@ nav {
   }
 }
 
-@media(hover:none) {
+@media (hover: hover) {
   .nav-link:hover {
+    background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    transition: color 5s ease, background 5s ease-in-out;
+  }
+}
+
+@media(hover:none) {
+
+  .nav-link:hover,
+  .nav-link:active {
     color: #fff !important;
     transition: none;
   }
