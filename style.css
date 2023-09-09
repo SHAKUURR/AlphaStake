@@ -439,10 +439,6 @@ nav {
   transition: all .5s ease-in-out;
 }
 
-.work-text a:hover {
-  color: #fff;
-  background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
-}
 
 .work img {
   width: 38%;
@@ -606,6 +602,11 @@ nav {
     color: #fff;
     background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
   }
+
+  .work-text a:hover {
+    color: #fff;
+    background: var(--Linear, linear-gradient(90deg, #15DBFF 0%, #006CD4 100%));
+  }
 }
 
 @media(hover:none) {
@@ -624,6 +625,12 @@ nav {
 
   .join a:hover,
   .join a:active {
+    color: #202020;
+    background-color: #FFF;
+  }
+
+  .work-text a:hover,
+  .work-text a:active {
     color: #202020;
     background-color: #FFF;
   }
